@@ -6,10 +6,10 @@ window.onload = async () => {
     .then(res => res.json())
     .then(index => {
       document.getElementById('title').innerHTML = index.config.title;
-      document.getElementById('header').innerHTML = index.config.title + ':';
+      document.getElementById('header').innerHTML = index.config.title;
 
       window.liveStudyApp = new LiveStudy(index, editor, document.getElementById('study-buttons'));
-      // console.log(liveStudyApp)
+      // console.log(liveStudyApp);
 
       const urlString = window.location.href;
       const url = new URL(urlString);
@@ -54,7 +54,7 @@ window.onload = async () => {
           document.getElementById('output').src = "data:text/html;charset=utf-8," + encodeURIComponent(code);
         }
       });
-      document.getElementById('current-path').innerHTML = exercise.path.abs.split('/').slice(2).join('/');
+      document.getElementById('current-path').innerHTML = exercise.path.abs;
       liveStudyApp.active = exercise;
 
       const view = liveStudyApp.render(exercise);
@@ -65,19 +65,3 @@ window.onload = async () => {
 };
 
 
-// fetch('.' + path)
-//   .then(res => {
-//     if (!res.ok) {
-//       throw res;
-//     }
-//     return res.text()
-//   })
-//   .then(exercise => {
-//     editor.setValue(exercise);
-//     document.getElementById('current-path')
-//       .innerHTML = exercise.path.abs;
-//   })
-//   .catch(err => {
-//     console.error(err);
-//     editor.setValue(`unable to load ${path}`)
-//   });
