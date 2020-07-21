@@ -15,6 +15,7 @@
   - [Project](#project)
 
 ---
+
 ---
 
 ## Learning Objectives
@@ -24,17 +25,20 @@ The topics you should focus on during your study this week.
 ### Isolating JavaScript
 
 Manipulating data stored in Objects
+
 - Dot vs. Bracket notation
 - Many ways of reading & writing object entries
 - Iterating objects with `for ... in` loops
 - Iterating objects with transformation methods
 
 ---
+
 ---
 
 ## Prep Work
 
 > First things first:
+>
 > - [Review the Weekly Assignments guide](https://home.hackyourfuture.be/students/weekly-assignments)
 > - [Create your Homework Issue](https://home.hackyourfuture.be/students/homework-submission#homework-issues)
 
@@ -63,28 +67,33 @@ Manipulating data stored in Objects
   - [stackoverflow](https://stackoverflow.com/questions/38824349/how-to-convert-an-object-to-an-array-of-key-value-pairs-in-javascript)
 
 ---
+
 ---
 
 ## Lesson Plan
 
 > during Sunday class
+>
 > - [Lesson Plan Slides](./week-1/index.html)
 
 Iterating over objects using `for ... in` loops & object transformations.
 
 ### Isolate
 
-Comparing `for ... in` loops to object transformation methods.
-- [For In & Object Transformations](../isolate/index.html)
+Using `for ... in` loops.
+
+- [For In](../isolate/index.html)
 
 ### Integrate
 
 Using objects to store data in a project.
+
 - [User Input in an Object & Interacting with an Object](../integrate/index.html)
 
 [TOP](#testing)
 
 ---
+
 ---
 
 ## Assignments
@@ -110,7 +119,7 @@ Using objects to store data in a project.
 
 ### Reading Code
 
-- [Helpful Links from _Behavior, Strategy, Implementation](https://github.com/HackYourFutureBelgium/behavior-strategy-implementation#helpful-links)
+- [Helpful Links from \_Behavior, Strategy, Implementation](https://github.com/HackYourFutureBelgium/behavior-strategy-implementation#helpful-links)
 - [dinanathsj29/javascript-exercise-beginners](https://github.com/dinanathsj29/javascript-exercise-beginners)
   - Finished solutions to study
   - Multiple solutions to the same problem
@@ -173,11 +182,11 @@ Using objects to store data in a project.
 
 > [Open-Ended](https://home.hackyourfuture.be/students/weekly-assignments#projects)
 
-You and your team are on your own this week.  Using [this boilerplate repository](https://github.com/HackYourFutureBelgium/testing-module-project-boilerplate) as a starting point, build something to impress yourselves.  Anything goes.  Remember just a month ago when you were still uncomfortable making a pull request? That was sooo last month! Take a minute to realize that you might not have learned everything you wanted to, but you've still learned more than you thought you would ;)
+You and your team are on your own this week. Using [this boilerplate repository](https://github.com/HackYourFutureBelgium/testing-module-project-boilerplate) as a starting point, build something to impress yourselves. Anything goes. Remember just a month ago when you were still uncomfortable making a pull request? That was sooo last month! Take a minute to realize that you might not have learned everything you wanted to, but you've still learned more than you thought you would ;)
 
-The most difficult part of this week will be coming up with your _project requirements_ and _project scope_.  You and your team will be writing your own user stories this week which means it's up to you how large or small, complex or simple your project is.  It will be better practice to plan a simple project you can finish, than a mind-blowing project you can't.
+The most difficult part of this week will be coming up with your _project requirements_ and _project scope_. You and your team will be writing your own user stories this week which means it's up to you how large or small, complex or simple your project is. It will be better practice to plan a simple project you can finish, than a mind-blowing project you can't.
 
-A good way to manage your project's scope is to plan the user stories first and then stick to them. Focusing on the end user and the project use cases will help to keep the big picture in mind, making it easier to notice when you're going too far into the code.  For this reason, you will be required to write two planning documents this week:
+A good way to manage your project's scope is to plan the user stories first and then stick to them. Focusing on the end user and the project use cases will help to keep the big picture in mind, making it easier to notice when you're going too far into the code. For this reason, you will be required to write two planning documents this week:
 
 1. `user-stories.md`: decide as a team what a user will (and won't!) be able to do on your website. Don't move on to #2 until you have finalized your user stories
 1. `development-strategy.md`: write a plan for how to implement these user stories
@@ -195,7 +204,4 @@ Here are some links and search results to help you get started planning your pro
 - [Scope Statement Statement](https://duckduckgo.com/?q=project+scope+statement&atb=v214-1&ia=web)
 - [study.hyf.be/collaborating/agile-development](https://study.hackyourfuture.be/collaborating/agile-development)
 
-
-
 :shipit:
-
