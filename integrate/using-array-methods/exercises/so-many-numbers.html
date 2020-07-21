@@ -25,6 +25,7 @@
       hint: use ctr-f to find all of the blanks _
     */
 
+<<<<<<< HEAD
       // 1. A user can see all numbers listed in an alert
       const displayNumbersHandler = (
         arrayOfNumbers = numbers,
@@ -34,6 +35,36 @@
         const joinNumbers = (acc, next) => `${acc}\n${next}`;
         const allNumbersListed = arrayOfNumbers.reduce(joinNumbers, "");
         alert(`${message}: ${allNumbersListed}`);
+=======
+    // 1. A user can see all numbers listed in an alert
+    const displayNumbersHandler = (arrayOfNumbers = numbers, message = _) => {
+      debugger;
+      const joinNumbers = (acc, next) => {
+        return _;
+      };
+      const allNumbersListed = arrayOfNumbers
+        ._(joinNumbers, _);
+      alert(`${message}: ${allNumbersListed}`);
+    };
+
+    // 2. A user can fill the array with as many numbers as they like
+    //  (beginning with zero, ending with userNumber - 1)
+    const resetNumbersHandler = () => {
+      debugger;
+      const userInput = prompt(_);
+      if (_) { return; }
+
+      const userNumber = Number(userInput);
+      if (_) {
+        alert(_);
+        return;
+      }
+
+      // a basic for loop, not for ... of
+      numbers = [];
+      for (_; _; _) {
+        numbers._(_);
+>>>>>>> 1e01046600c31285bff95eca5145991d292b65bd
       };
 
       // 2. A user can fill the array with as many numbers as they like

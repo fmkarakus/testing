@@ -16,7 +16,11 @@
   </style>
 
   <script id='script-variables'>
+<<<<<<< HEAD
     const userEntries = {};
+=======
+    let userEntries = {};
+>>>>>>> 1e01046600c31285bff95eca5145991d292b65bd
   </script>
 
   <script id='handlers'>
@@ -28,11 +32,19 @@
       console.log('-- action: display values --');
       console.log('userEntries:', typeof userEntries, '\n', userEntries);
 
+<<<<<<< HEAD
       const stringToDisplay = Object.entries(userEntries)
         .reduce((message, nextEntry) => {
           const nextLine = nextEntry[0] + ': ' + nextEntry[1];
           return message + '\n' + nextLine;
         }, 'all entries:');
+=======
+      let stringToDisplay = 'all entries:';
+      for (const key in userEntries) {
+        const nextLine = ` ${key}: ${userEntries[key]}`;
+        stringToDisplay += '\n' + nextLine;
+      }
+>>>>>>> 1e01046600c31285bff95eca5145991d292b65bd
       console.log('stringToDisplay:', typeof stringToDisplay, '\n', stringToDisplay);
 
       alert(stringToDisplay);
@@ -77,7 +89,10 @@
       const keyExists = Object.keys(userEntries)
         .includes(key); // does the array include this exact string?
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1e01046600c31285bff95eca5145991d292b65bd
       if (keyExists) {
         delete userEntries[key];
         console.log('userEntries (after):', typeof userEntries, '\n', userEntries);
