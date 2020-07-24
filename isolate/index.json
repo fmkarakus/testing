@@ -405,6 +405,58 @@
       ]
     },
     {
+      "path": "/10-object-transformations",
+      "dirs": [
+        {
+          "path": "/examples",
+          "files": [
+            {
+              "path": "/1-keys.js"
+            },
+            {
+              "path": "/2-values.js"
+            },
+            {
+              "path": "/3-entries.js"
+            },
+            {
+              "path": "/4-from-entries.js"
+            },
+            {
+              "path": "/capitalize-menagerie.js"
+            }
+          ],
+          "isExample": true
+        },
+        {
+          "path": "/exercises",
+          "files": [
+            {
+              "path": "/1-all-defined.js"
+            },
+            {
+              "path": "/2-remove-private-keys.js"
+            },
+            {
+              "path": "/3-truthy-values-from-entries.js"
+            },
+            {
+              "path": "/3-truthy-values-reduce.js"
+            },
+            {
+              "path": "/4-swapem-from-entries.js"
+            },
+            {
+              "path": "/4-swapem-reduce.js"
+            }
+          ],
+          "config": {
+            "buttons": []
+          }
+        }
+      ]
+    },
+    {
       "path": "/extra-object-transformations",
       "dirs": [
         {
